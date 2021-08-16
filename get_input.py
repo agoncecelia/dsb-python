@@ -2,4 +2,4 @@
 name = input("Please enter your name: ")
 age = input("Please enter your age: ")
 
-print("Users name is: " + name + " and age: " + age)
+print("Users name is: {} and age: {}".format(name, age))
