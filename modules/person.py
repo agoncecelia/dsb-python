@@ -12,3 +12,6 @@ class Person:
     
     def walk(self):
         return "{} is walking".format(self.name)
+
+    def get_email(self):
+        return self.email
